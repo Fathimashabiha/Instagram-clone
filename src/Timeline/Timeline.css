@@ -1,0 +1,106 @@
+.timeline{
+    display: flex;
+    flex-direction: row;
+}
+.timeline_left{
+    flex: 0.7;
+}
+.timeline_right{
+    flex: 0.3;
+}
+.status{
+    padding: 30px 10px 5px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sub_status{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://media.istockphoto.com/id/1431090023/photo/road-through-the-forest.webp?b=1&s=170667a&w=0&k=20&c=lKc543icdd1Yo8wJOUZU_oTdnBIdURp12Hd9JjS323o=);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub_statuses{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://media.istockphoto.com/id/1277767891/photo/various-fresh-ripe-pumpkins-as-background.webp?b=1&s=170667a&w=0&k=20&c=R1wp9cc9PkUmOiE9PdXlDe2FUBQ3YpxJMjV8yxzLXRY=);
+    background-position: center;
+    background-size: cover;
+}
+.substatus{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://media.istockphoto.com/id/1166613720/photo/sunflower-in-full-bloom-with-blue-sky.webp?b=1&s=170667a&w=0&k=20&c=kAbs2YK8la_t5kRip_-tFyDroAw4QsKsMKeit9IGA4o=);
+    background-position: center;
+    background-size: cover;
+}
+.subStatus{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://media.istockphoto.com/id/1438969575/photo/smiling-young-male-college-student-wearing-headphones-standing-in-a-classroom.webp?b=1&s=170667a&w=0&k=20&c=3jwddQH5X_5-1o3hCkZnI1zRyVRIgJXuwT0QqQOf2lM=);
+    background-size: cover;
+}
+.sub_status1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://media.istockphoto.com/id/1426559579/photo/female-tourist-enjoying-watching-hot-air-balloons-flying-in-the-sky-at-rooftop-of-hotel-where.webp?b=1&s=170667a&w=0&k=20&c=3UHqaNl-0A91lLqknAUFiv9gcbHEx_GtLtvVKr6GH5c=);
+    background-position: center;
+    background-size: cover;
+}
+.sub_status2{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.sub_status3{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGh1bWFufGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+.sub_status4{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196,196);
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.status_name{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.status_row{
+    display: flex;
+}
+@media (max-width:400px){
+    .timeline_posts{
+        width: 2px;
+        
+    }
+}

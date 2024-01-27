@@ -1,0 +1,18 @@
+.reels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.reel{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 3200px;
+    margin-top: 5px;
+    
+}
+.reelitem{
+    margin-left: 400px;
+    
+}

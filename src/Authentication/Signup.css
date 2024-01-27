@@ -1,0 +1,150 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 440px;
+    
+}
+.signup img{
+    width: 200px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: -35px;
+}
+.signup input{
+    background-color: #ffffff24;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.signup input:focus {
+    outline: 0.3px solid grey;
+
+}
+.signup button{
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background-color: #0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logout_button{
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border: 0;
+  
+}
+.logout_button:hover{
+    cursor: pointer;
+    background-color: rgb(153, 150, 150);
+}
+
+
+.fbbtn{
+    background-color: rgb(12, 110, 239);
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    padding: 2rem;
+    padding-top:-10px;
+    padding-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    margin-bottom: .3rem;
+    margin-top: -20px;
+}
+button .fb{
+    width: 1.1rem;
+    margin-right: .5rem;
+    margin-top: -.5rem;
+}
+button .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+ button .lfb{
+    font-size: .9rem;
+    color: white;
+    margin-top: -.3rem;
+    align-items: center;
+}
+.or{
+    color: rgb(98, 98, 98);
+    font-size: .9rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: -0.3rem;
+    text-align: center;
+}
+.detail{
+    font-size: medium;
+    color: gray;
+    margin-top: -30px;
+    padding-right: 2rem;
+    padding-left: 2.8rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.details{
+    font-size: smaller;
+    color: gray;
+    margin-top: 2px;
+    padding-right: 2rem;
+    padding-left: 2.8rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.link{
+    color: rgb(49, 48, 108);
+    cursor: pointer;
+    font-size: small;
+}
+.third-box{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+    font-size: .9rem;
+    color: rgb(57,57,57);
+}
+.google{
+    width: 8rem;
+    height: 2.75rem;
+    padding-top: -30rem ;
+    margin-right: 0.3rem;
+    margin-left: 1.1rem;
+    margin-top: -1rem;
+}
+.ms{
+    width: 7rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    margin-right: 1rem;
+}
+
+.four-box{
+    margin-top: -1.2rem;
+}
+.signbtn{
+    margin-bottom: -25px;
+}

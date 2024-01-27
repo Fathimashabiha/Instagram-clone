@@ -1,0 +1,45 @@
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textmessageimg{
+   margin-top: 50px;
+   margin-left: 100px;
+   width: 90%;
+   margin-bottom: -20px;
+}
+.textmessage{
+    margin-left: 130px;
+}
+.textmessageheading{
+   margin-top: -80px;
+   margin-left: 240px;
+
+}
+.textmessagebtn{
+    background-color: rgb(26, 120, 242);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 53%;
+}
+.mtitle{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+.mmbody{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    color: darkslategrey;
+    font-size: small;
+}
+.mbody{
+    width: 93%;
+}
+.mbtn{
+    width: 100%;
+}
